@@ -1,0 +1,336 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    margin: auto;
+    margin-top: -40px;
+}
+.upperpick{
+    width: 80%;
+    height: 340px;
+    
+    margin: auto;
+    border-radius: 7px;
+    display: flex;
+    margin-top: 120px;
+}
+.upperpick>div:nth-child(1){
+    width: 57%;
+    height: 100%;
+   
+    /* opacity: 0.9; */
+    background-color: #f9f9f9;
+}
+.upperpick>div:nth-child(2){
+    width: 43%;
+    height: 100%;
+  
+    
+}
+.pick>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    
+}
+.content{
+    border-radius: 7px;
+}
+.content>div{
+    width: 100%;
+    height: 100%;
+}
+.content>div>h1:nth-child(1){
+    margin-top: 30px;
+    font-size: 38px;
+    margin-left: 40px;
+}
+.content>div>h1:nth-child(2){
+    font-size: 38px;
+    margin-left: 40px;
+}
+.content>div>p{
+    font-size: 20px;
+    color: gray;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: white;
+    display: inline-block;
+  
+    padding: 8px;
+    border-radius: 5px;
+}
+.button{
+    width: 330px;
+    height: 50px;
+ 
+    margin-left: 49px;
+    background-color: #ff43a4;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: flex;
+}
+.button>img{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 20px;
+    height: 25px;
+}
+.button>p{
+    margin-top: 10px;
+    margin-left: 23px;
+    color: white;
+    font-size: 16px;
+
+}
+.heading{
+    width: 80%;
+    height: 150px;
+    border-radius: 7px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.line1 ,.line2{
+    width: 20%;
+    margin-top: 74px;
+    height: 50%;
+    border-top: 2px solid pink;
+    
+}
+.mainhead{
+    margin-top: 50px;
+
+}
+.mainhead>h1{
+    font-size: 35px;
+}
+.heading>div>hr{
+    color: hotpink;
+    background-color: fuchsia;
+}
+.fashionstore{
+    width: 80%;
+    height: 500px;
+    border-radius: 7px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    background-image: url(https://images.meesho.com/images/marketing/1631612018143.png);
+}
+.fashionstore>div:nth-child(1){
+    width: 35%;
+    height: 90%;
+    position: relative;
+    top: 50px;
+    left: 10px;
+  
+    
+}
+.pick1>img{
+    width: 100%;
+    height: 100%;
+}
+.fashionstore>div:nth-child(2){
+    width: 30%;
+    height:60%;
+   
+    position: relative;
+    top: 185px;
+    left: 30px;
+}
+.fashionstore>div:nth-child(3){
+    width: 30%;
+    height:60%;
+    
+    position: relative;
+    top: 185px;
+    left: 50px;
+}
+.pick2>img{
+    width: 100%;
+    height: 100%;
+}
+.homecare{
+    width: 80%;
+    height: 450px;
+    border-radius: 7px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: 36% 20% 20% 20%;
+    grid-template-rows: repeat(1,90%);
+    grid-gap: 10px;
+    background-image: url(https://images.meesho.com/images/marketing/1629883965347.png);
+}
+
+.img1{
+    text-align: center;
+}
+.img1>button{
+    background-color: white;
+    color: #449672;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 550;
+    border-radius: 5px;
+    border: none;
+    margin: auto;
+    margin-top: 10px;
+}
+.img1>img{
+    width: 100%;
+    height: 80%;
+    border: 6px solid #cdedde;
+
+}
+.viewAll>h1{
+    color: #038d63;
+    font-size: 40px;
+    margin-top: 55px;
+    margin-left: 50px;
+}
+.viewAll>button{
+    padding: 10px 30px;
+    background-color:#038d63 ;
+    color: white;
+    font-size: 18px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 80px;
+    font-weight: 550;
+}
+.reseller{
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    margin-top: 65px;
+    border-radius: 7px;
+   padding: 1px;
+    background-image: url(	https://meesho.com/_next/static/images/download_banner-19ca4d63d9c1dc44bc8cbfae62b60bd7.jpg);
+}
+.reseller>h1{
+    text-align: right;
+    margin-right: 50px;
+}
+.reseller>h1:nth-child(1){
+  margin-top: 40px;
+  color: #5585f8;
+ 
+   
+}
+.reseller>h1:nth-child(2){
+    font-size: 40px;
+    color:#f43397 ;
+  
+}
+.reseller>h1:nth-child(3){
+    font-size: 40px;
+    color:#f43397 ;
+    margin-top: -10px;
+}
+.appdown{
+    width: 350px;
+    height:45px ;
+ 
+    float: right;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.appdown>div{
+    width: 48%;
+    height: 100%;
+    
+}
+.im>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.mSuplier{
+    width: 80%;
+    height: 280px;
+    border-radius: 7px;
+    margin: auto;
+    border: 1px solid red;
+    margin-top: 65px;
+    background-image: url(https://meesho.com/_next/static/images/supply_banner_desk-d53b6ffa3ee3c43feedcfdd0f3d9bd8d.jpg);
+    margin-bottom: 65px;
+}
+.mSuplier>h1{
+    font-size: 35px;
+    color: white;
+    font-weight: 550;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.mSuplier>p{
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-top: 5px;
+}
+.expander{
+    width: 75%;
+    height: 50px;
+   
+    margin-left: 40px;
+    margin-top: 15px;
+    display: flex;
+   
+}
+.expander>div{
+   
+    width: 32%;
+    height: 100%;
+    display: flex;
+    
+
+
+
+}
+.expander>div:nth-child(1){
+    width: 34%;
+}
+.expander>div:nth-child(3){
+   
+    width: 25%;
+}
+.expander>div:nth-child(2){
+  width: 25%;
+}
+.expander>div>img{
+    margin-left: 8px;
+    margin-top: 12px;
+}
+.expander>div>p{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 8px;
+    
+
+}
+.expander>div>hr{
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.mSuplier>button{
+    padding: 10px 30px ;
+    color:#f43397;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-weight: 500;
+    border: none;
+}
+

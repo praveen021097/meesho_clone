@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/checkout.css">
+</head>
+<body>
+    <div id="nav-container">
+
+
+    </div>
+    <div id="checkOutContainer">
+        <div id="mini">
+            <div id="miniimge">
+                
+            </div>
+        </div>
+        <div id="middile">
+            <div id="bigImage">
+               
+            </div>
+            <div id="addtocart">
+                
+                
+            </div>
+            <hr>
+            <div id="similarproduct">
+                
+                    <h3>Similar products</h3>
+                    <div>
+                        <div>
+                            <img src="https://images.meesho.com/images/products/31584949/0tu9z_64.jpg" alt="">
+                        </div>
+                    
+                    
+                        <div>
+                            <img src="https://images.meesho.com/images/products/31584949/0tu9z_64.jpg" alt="">
+                        </div>
+                    
+                    
+                        <div>
+                            <img src="https://images.meesho.com/images/products/31584949/0tu9z_64.jpg" alt="">
+                        </div>
+                   
+                   
+                        <div>
+                            <img src="https://images.meesho.com/images/products/31584949/0tu9z_64.jpg" alt="">
+                        </div>
+                   
+                   
+                        <div>
+                            <img src="https://images.meesho.com/images/products/31584949/0tu9z_64.jpg" alt="">
+                        </div>
+                 
+                    
+                        <div>
+                            <img src="https://images.meesho.com/images/products/31584949/0tu9z_64.jpg" alt="">
+                        </div>
+                    </div>
+               
+            </div>
+        </div>
+        <div id="right">
+            <div id="price">
+          
+            </div>
+            <div id="selectSize">
+                <p>Select Size</p>
+                <p>Free Size</p>
+            </div>
+            <div id="productDetails">
+               <p>Product Details</p> 
+                <p>Saree Fabric : Cotton Silk</p>
+                <p>Blouse : Without Blouse</p>
+                <p>Blouse Fabric : No Blouse</p>
+                <p>Multipack : Single</p>
+                <p>Sizes : </p>
+                <p>Free Size (Saree Length Size : 5.5 m)</p>
+                <p>Country of Origin : India</p>
+                <p>More Information</p>
+
+            </div>
+            <div id="soldby"></div>
+            <div id="productReview"></div>
+            <div  id="options"></div>
+            <div id="trusted"></div>
+           
+        </div>
+    </div>
+    <div id="footer">
+
+    </div>
+    <script src="./scripts/checkout.js"></script>
+</body>
+</html>
+<script type="module">
+     import upperNav from "./components/upperNav.js"
+    import footer from "./components/footer.js"
+     import storeSearchterm from "./scripts/search.js"
+   
+    let navbar = document.getElementById("nav-container");
+    navbar.innerHTML = upperNav();
+
+    let footer1 = document.getElementById("footer");
+    footer1.innerHTML = footer();
+
+</script>

@@ -8,8 +8,7 @@
         <li>HTML</li>
         <li>CSS</li>
         <li>JAVASCRIPT</li>
- 
-      </ul>
+    </ul>
 
 
    <p>Before sharing our experience we want to share some snippets of our project. </p>

@@ -1,7 +1,7 @@
 # meesho_clone
-# Revv.io
 
-  <h3><a href="https://revv-clone.netlify.app/index.html">Revv Website Clone</a></h3>
+
+  <h3><a href="https://revv-clone.netlify.app/index.html">meesho Website Clone</a></h3>
     <p>Hi reader, you might have visited or heard about meesho, a place which largest e-commerce clothing seller in the India , after flipkart and amazon meesho captured big part of market . it is a big affiliate marketing platform. you visit it.</p>
     <h3>Technology we are use for acheiving this</h3>
     <ul>
